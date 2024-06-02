@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+    min-width: fit-content;
+    max-width: 100%;
+}
+main,header{
+    text-align: center;
+}
+
+
+
+img{
+    border: 4px solid yellowgreen ;
+    border-radius: 10px ;
+    width: 80%;
+
+}
+
+.popm{
+    background-color: rgb(19, 73, 19);
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    border: 3px solid yellowgreen ;
+}
+
+video{
+    width: 70%;
+    height: min-content;
+    
+}
+
+.top1{
+    margin-top: 2px;
+}
+
+.word1{
+    border: 4px solid yellowgreen ;
+    border-radius: 10px ;
+    padding: 15px;
+}
+.word2{
+    background-color: rgb(16, 45, 16);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+}
+.word3{
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(142, 168, 168);
+    padding: 4px;
+}
+.word4{
+    background-color: rgb(16, 45, 16);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px salmon solid;
+}
+.delv{
+    border: none;
+}
+
+.note1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  form{
+    padding-left: 5px;
+  }
+button{
+    background-color: rgb(88, 204, 111);
+    font-size: larger;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px rgb(13, 13, 12) dashed ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .botton1{
+    background-color: green;
+    font-size: x-large;
+    border: 5px solid black;
+    border-radius: 10px;
+    color: white;
+    
+}
+.botton1{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:1px ;
+    
+}
+
+.main1{
+    text-align: center;
+    justify-content: center;
+    max-height: fit-content;
+    min-width: fit-content; 
+}
